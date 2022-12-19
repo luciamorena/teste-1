@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
+}
+
+body {
+    height:100vh;
+    /* background:linear-gradient(45deg,magenta,blue); */
+    display:grid;
+    place-content: center;
+}
+
+h1 {
+    background:rgba(0,0,0,1);
+    color:#eee;
+    border-radius:8px;
+    padding:3rem;
+}
+
+h1:hover {
+    background:linear-gradient(45deg,rgb(98, 0, 255),rgb(0, 255, 21));
+}
